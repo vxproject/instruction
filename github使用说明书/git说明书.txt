@@ -4,3 +4,7 @@
 4  暂存 数据    （git  commit  -m   后面加说明，vscode  直接点 对号 输入说明   即可暂存）
 5  git pull  origin  master  （默认）  
 6   git push  origin  master 
+
+
+清除掉缓存在git中的用户名和密码
+git credential-manager uninstall
