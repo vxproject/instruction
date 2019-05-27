@@ -1,0 +1,6 @@
+1  创建远程库  
+2  本地克隆远程库    git  clone  https://github.com/lsz155/first_gitHub.git   
+3  更新内容  
+4  暂存 数据    （git  commit  -m   后面加说明，vscode  直接点 对号 输入说明   即可暂存）
+5  git pull  origin  master  （默认）  
+6   git push  origin  master 
