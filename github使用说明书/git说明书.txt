@@ -12,12 +12,12 @@
 2. 将本地项目 实例化成本地仓库  即  git init ;
 3. 以防万一  ：查看一下本地仓库是否关联了其他的远程库  ： git remote -v  ;
      如果输出的有路径  看一下 路径和 上面第一步的路径是否一致；
-     如果不一致 则先删除该关联   git  remote rm origin ;
-     重新关联  刚刚创建的远程地址  git remote add origin  远程仓库地址 ；
+     如果不一致 则先删除该关联  : git  remote rm origin ;
+     重新关联  刚刚创建的远程地址 : git remote add origin  远程仓库地址 ；
      然后 在查看一下  git remote -v   ;
- 4. 拉取项目  git push  远程仓库地址  ；
- 5.暂存 目前内容   git commit -m  '提交说明'  ；code 工具  可以直接点击对号  √  ，填写 暂存说明 ；
- 6. 推送项目  git push  origin  masterl;
+ 4. 拉取项目 : git pull  远程仓库地址  ；
+ 5.暂存 目前内容 :  git commit -m  '提交说明'  ；code 工具  可以直接点击对号  √  ，填写 暂存说明 ；
+ 6. 推送项目 : git push  origin  masterl;
 
 
 
